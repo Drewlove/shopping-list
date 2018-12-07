@@ -2,6 +2,13 @@
   box-sizing: border-box;
 }
 
+.test{
+  background-color: green;
+  height: 250px; 
+  color: yellow; 
+}
+
+
 body {
   font-family: 'Roboto', sans-serif;
 }
