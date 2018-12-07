@@ -12,7 +12,6 @@ function main(){
     $('#js-shopping-list-form').submit(function(event){
         event.preventDefault();  
         let newItemText = $('#shopping-list-entry').val();
-        // $('.shopping-list li:first-child').removeClass('shopping-item__checked'); 
         $('.shopping-list li:first-child').clone(true).appendTo('.shopping-list');
         $('.shopping-item').last().text(newItemText);
         $('.shopping-item').last().removeClass('shopping-item__checked')
